@@ -93,7 +93,8 @@ Example of Using the AVL Tree
 
 Code:
 
-```#include "tm_avl.h"
+```c
+#include "tm_avl.h"
 
 int compare(void *a, void *b) {
     int x = *(int *)a;
@@ -122,7 +123,8 @@ Example of Using the Queue
 
 Code:
 
-```#include "tm_queue.h"
+```c
+#include "tm_queue.h"
 
 int main() {
     bool success;
